@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Metrolics Home Page</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <meta name="description" content="Minions!" />
 
     <meta property="og:title" content="" />
@@ -23,28 +23,31 @@
 
   <body>
 
-    <header>
-      <h1>Metrolics</h1>
-      <nav class="topnavbar">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/">Portfolio</a>
-          </li>
-          <li>
-            <a href="/">Blog</a>
-          </li>
-          <li>
-            <a href="/">Quo Vadis?</a>
-          </li>
-          <li>
-            <a href="/">Let's Chat</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+   <header>
+    <div class="header__logo">
+      <div class="header__brand-name">Metrolics</div>
+      <img class="header__brand-logo" src="/" alt="Metrolics Logo"/>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item header__nav-item--home">
+          <a href="/" class="header__nav-link">Home</a>
+        </li>
+        <li class="header__nav-item header__nav-item--portfolio">
+          <a href="/" class="header__nav-link">Portfolio</a>
+        </li>
+        <li class="header__nav-item header__nav-item--blog">
+          <a href="/" class="header__nav-link">Blog</a>
+        </li>
+        <li class="header__nav-item header__nav-item--quo-vadis">
+          <a href="/" class="header__nav-link">Quo Vadis?</a>
+        </li>
+        <li class="header__nav-item header__nav-item--chat">
+          <a href="/" class="header__nav-link">Let's Chat</a>
+        </li>
+      </ul>
+    </nav>
+  </header> 
     <section>
       <div class="minionbuttons">
         <button class="staircasebuttons">Metro Style</button>
