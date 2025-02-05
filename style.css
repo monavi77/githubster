@@ -1,1 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: stretch;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__brand-logo {
+    width: 40px;
+    height: auto;
+}
+
+.header__nav {
+    display: grid;
+}
+
+.header__nav-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
+    list-style: none;
+    gap: 0; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.header__nav-item {
+    text-align: end;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 134px; 
+    height: 96px; 
+    padding: 13px 15px; 
+    gap: 8px; 
+    margin: 0; 
+}
+
+.header__brand-name {
+    padding: 1rem;
+    color: #4D4D4D;
+    display: block;
+}
+
+.header__nav-link {
+    color: #fff;
+    display: block;
+    text-align: end;
+    text-decoration: none;
+}
+
+.header__nav-item--home {
+    background: #25C389; 
+}
+
+.header__nav-item--portfolio {
+    background: #FFB901; 
+}
+
+.header__nav-item--blog {
+    background: #DE6262; 
+}
+
+.header__nav-item--quo-vadis {
+    background: #19B2DE; 
+}
+
+.header__nav-item--chat {
+    background: #265787; 
+}
