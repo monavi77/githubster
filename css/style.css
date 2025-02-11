@@ -37,7 +37,11 @@
 
 
 
-
+.footer_container {
+    display: grid;
+    background-color: #0E2E4E;
+   
+}
 
    /*1.3 Typography*/
 
