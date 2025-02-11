@@ -3,3 +3,5 @@
 .history
 .history/css/style.css
 .history/index.html
+.DS_Store
+.history/.DS_Store
