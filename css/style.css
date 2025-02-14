@@ -22,65 +22,75 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: stretch;
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: end;
     background-color: #fff;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0; 
+    max-width: 1024px;
+    margin: 0 auto; 
 }
 
 .header__logo {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.header__brand-logo {
-    width: 40px;
-    height: auto;
-}
-
-.header__nav {
-    display: grid;
-}
-
-.header__nav-list {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 equal columns */
-    list-style: none;
-    gap: 0; 
-    margin: 0; 
-    padding: 0; 
-}
-
-
-.header__nav-item {
-    text-align: end;
-    font-weight: 600;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 134px; 
-    height: 96px; 
-    padding: 13px 15px; 
-    gap: 8px; 
-    margin: 0; 
+    align-items: baseline;
+    grid-column: 1;
+    justify-content: flex-start;
+    margin-right: 14%;
+    margin-bottom: 1%;
 }
 
 .header__brand-name {
-    padding: 1rem;
-    color: #4D4D4D;
-    display: block;
+    
+    font-size: 1rem;
+    font-weight: medium;
+    color: #4D4D4D; 
+    margin: 0;
+    padding: 0;
 }
 
+
+.header__brand-logo {
+    width: 2rem;
+    height: 1rem;
+    
+}
+
+.header__nav {
+    display: flex;
+    justify-content: flex-end; 
+    flex-grow: 1; 
+}
+
+
+.header__nav-list {
+    display: flex;
+    width: 100%; 
+    justify-content: space-between;
+    list-style: none;
+}
+
+    .header__nav-item {
+        flex-grow: 1;
+        text-align: center;
+        width: 134px;  
+        height: 96px;
+    }
+
 .header__nav-link {
+    display: flex;
+    justify-content: left; 
+    align-items: flex-end; 
     color: #fff;
-    display: block;
-    text-align: end;
+    font-size: 16px;
+    font-weight: medium;
     text-decoration: none;
+    padding-left: 16px;
+    padding-right: 18px;
+    padding-bottom: 13px; 
+    height: 100%; 
 }
 
 .header__nav-item--home {
