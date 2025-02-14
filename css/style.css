@@ -22,7 +22,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* Header and Navigation Bar */
+/* Header & Navigation */
 header {
     display: flex;
     justify-content: space-between; 
@@ -32,7 +32,6 @@ header {
     max-width: 1024px;
     margin: 0 auto; 
 }
-
 .header__logo {
     display: flex;
     align-items: baseline;
@@ -75,7 +74,7 @@ header {
     .header__nav-item {
         flex-grow: 1;
         text-align: center;
-        width: 134px;  
+        width: 134px; 
         height: 96px;
     }
 
@@ -118,70 +117,74 @@ header {
     font-weight: 100;
 }
 
-/* Main Banner with links */
 .hero__tag.metro {
-    border-left: 8px solid #19B2DE; 
-    width: 172px;
-    height: 64px;
+     border-left: 8px solid #19B2DE; 
+     width: 172px;
+     height: 64px;
 
-   }
+    }
 .hero__tag.quick {
-    border-left: 8px solid #DE6262; 
-    width: 236px;
-    height: 64px;
-    flex-shrink: 0;
-   }
+     border-left: 8px solid #DE6262; 
+     width: 236px;
+     height: 64px;
+     flex-shrink: 0;
+    }
 .hero__tag.styling {
-    border-left: 8px solid #FFB901; 
-    width: 315px;
-    height: 64px;
-    flex-shrink: 0;
-   } 
+     border-left: 8px solid #FFB901; 
+     width: 315px;
+     height: 64px;
+     flex-shrink: 0;
+    } 
 
 .main__screen-banner {
-   width: 100%; 
-   max-width: 1024px; 
-   margin: 0 auto; 
+    width: 100%; 
+    max-width: 1024px; 
+    margin: 0 auto; 
 }
 .main__screen-banner img {
-   width: 100%;
-   height: auto; 
+    width: 100%;
+    height: auto; 
 }
 .hero {
-   position: relative;
-   width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .minionbuttons {
-   position: absolute;
-   top: 30%; 
-   left: 30%;
-   transform: translateX(-50%);
-   display: flex;
-   gap: 4px;
-   flex-direction: column;
+    position: absolute;
+    top: 30%; 
+    left: 30%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
 }
 
 
 .hero__tag {
-   display: flex;
-   width: 272px; 
-   height: 64px; 
-   flex-direction: row;
-   justify-content: center;
-   flex-shrink: 0;
-   align-items: center;
-   color: #3C3C3C;
-   background: rgba(255, 255, 255, 0.80);
-   font-family: 'Ubuntu', sans-serif;
-   font-size: 24px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: normal;
-   text-align: center;
+    display: flex;
+    width: 272px; 
+    height: 64px; 
+    flex-direction: row;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+    color: #3C3C3C;
+    background: rgba(255, 255, 255, 0.80);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.announcement {
+    max-width: 1024px; /* Match header width */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Add spacing */
 }
 
-/* Announcement H2 */
 .announcement h2 {
     font-family: Ubuntu;
     font-size: 34px;
@@ -192,9 +195,6 @@ header {
 .announcement h2 b {
     color: #1EAFDE; /* Blue for Metrolics */
 }
-
-/* Services Section */
-
 .services {
     padding: 40px 0;
     text-align: center;
@@ -270,6 +270,7 @@ header {
     border: 3px solid #1596BD;
     padding: 2%;
 }
+
 /* Responsive Breakpoints */
 
 
