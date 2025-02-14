@@ -39,7 +39,7 @@
         /*footer*/
 
         .footer_container {
-            display: grid;
+        
             background-color: #0E2E4E;
         }
 
@@ -47,10 +47,9 @@
    /*1.3 Typography*/
 
 
-            .footer_masodon_text, .footer_profile_text,.footer_about_text {
+            p {
                 color:#ffff;
-                /*font-family: Ubuntu; insert later */
-
+                font-family: 'Ubuntu', sans-serif;
    }
 
 
@@ -59,55 +58,49 @@
    ========================================================================== */
   /* 2.1 Core Layout*/
 
+/* 2.2 Small only */
+@media screen and (max-width: 39.9375em) {}
+/* 2.3 Medium and up */
+@media screen and (min-width: 40em) {}
+/* 2.4 Medium only */
+@media screen and (min-width: 40em) and
+(max-width: 63.9375em) {}
+/* 2.4 Large and up */
+@media screen and (min-width: 64em) {
+.footer_profile_container{
+    display: flex;
+    width: 760px;
+    margin-left: 208px;
+    padding: 32px;
+    align-items:center;
+    gap: 32px;
+}
+.profile_image{
+    width:170px;
+    height: 147px;
+    margin-top: 28px;
+    border: -22, -3.5, -30, -26;
+}
 
- /* 2.2 Small only */
-@media (max-width: 432px){
-    .footer_container {
-        width: 432px;
-        height: 754px;   
-    }
-    .footer_profile_container {
-        display: flex;
-        width: 416px;
-        height: 182px;
-        padding: 32px;
-        align-items:flex-start;
-    }
-    .profile_image_container {
-        width: 33.89px;
-        height: 13.82px;
-        border: 32px;
-    }
-    .profile_image {
-        width: 138.604px;
-       height: 119.858px;
-    }
-    }
+.profile_line {
+    display:flex;
+    width: 118px;
+    height:3px;
+    background: #FFB901;
+    margin-left: 445px; 
+}
+.profile_text_container{
+    width: 546px;
+    height:72px;
+}
+}
 
- /*2.3 medium and up*/
-
-
-
-
- /*2.4 Medium only*/
-
-
- /*2.5 large screens and up*/
-
-
-
-/*2.6 Large only*/
-
-
+/* 2.6 Large only */
+@media screen and (min-width: 64em) and
+(max-width: 74.9375em) {}
 /* ==========================================================================
     3. MODULES
    ========================================================================== */
-
-
-
-
-
-
 
 /* footer*/
 .about_header {
@@ -130,10 +123,10 @@
     background: #FFB901;
  }
 
-.profile_line {
-    width: 118px;
-    height:3px;
-    background: #FFB901;
+
+.track_submit_icon {
+    width:17px;
+    height: 16px;
 }
 /* ==========================================================================
      4. STATES
