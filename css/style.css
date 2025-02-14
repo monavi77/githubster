@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Medium.ttf') format('ttf');
+    font-weight: medium;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .header {
     display: grid;
     grid-template-columns: auto 1fr;
