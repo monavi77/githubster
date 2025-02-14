@@ -22,7 +22,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* Header */
+/* Header and Navigation Bar */
 header {
     display: flex;
     justify-content: space-between; 
@@ -111,4 +111,72 @@ header {
 
 .header__nav-item--chat {
     background: #265787; 
+}
+
+.header__nav-link span{
+    padding-left: 7px;
+    font-weight: 100;
+}
+
+/* Main Banner with links */
+.hero__tag.metro {
+    border-left: 8px solid #19B2DE; 
+    width: 172px;
+    height: 64px;
+
+   }
+.hero__tag.quick {
+    border-left: 8px solid #DE6262; 
+    width: 236px;
+    height: 64px;
+    flex-shrink: 0;
+   }
+.hero__tag.styling {
+    border-left: 8px solid #FFB901; 
+    width: 315px;
+    height: 64px;
+    flex-shrink: 0;
+   } 
+
+.main__screen-banner {
+   width: 100%; 
+   max-width: 1024px; 
+   margin: 0 auto; 
+}
+.main__screen-banner img {
+   width: 100%;
+   height: auto; 
+}
+.hero {
+   position: relative;
+   width: 100%;
+}
+
+.minionbuttons {
+   position: absolute;
+   top: 30%; 
+   left: 30%;
+   transform: translateX(-50%);
+   display: flex;
+   gap: 4px;
+   flex-direction: column;
+}
+
+
+.hero__tag {
+   display: flex;
+   width: 272px; 
+   height: 64px; 
+   flex-direction: row;
+   justify-content: center;
+   flex-shrink: 0;
+   align-items: center;
+   color: #3C3C3C;
+   background: rgba(255, 255, 255, 0.80);
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   text-align: center;
 }
