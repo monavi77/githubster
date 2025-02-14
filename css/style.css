@@ -270,3 +270,113 @@ header {
     border: 3px solid #1596BD;
     padding: 2%;
 }
+/* Responsive Breakpoints */
+
+
+/* Small only (up to 39.9375em / 639px) */
+@media screen and (max-width: 39.9375em) {
+    header {
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        width: 100%;
+    }
+
+    .header__logo {
+        margin: 1rem ;
+        justify-content: flex-start;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__nav-item {
+        display: none;
+    }
+   .hero{
+    display: none;
+   }
+   .announcement{
+  padding: 5%;
+   }
+   
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+
+}
+
+/* Medium and up (min-width: 40em / 640px) */
+@media screen and (min-width: 40em) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__logo {
+        margin: 0.5rem ;
+        justify-content: center;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .header__nav {
+        width: 100vw;
+    }
+}
+
+/* Medium only (40em-63.9375em / 640px-1023px) */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .header__nav-item {
+        width: 110px;
+    }
+
+    .hero__tag {
+        width: 80%;
+    }
+
+    .announcement h2 {
+        font-size: 28px;
+    }
+
+    .services h2 {
+        font-size: 24px;
+    }
+}
+
+/* Large and up (min-width: 64em / 1024px) */
+@media screen and (min-width: 64em) {
+    header {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .hero__tag {
+        width: 272px;
+    }
+}
+
+/* Large only (64em-74.9375em / 1024px-1199px) */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+    .main__screen-banner {
+        max-width: 1024px;
+    }
+
+    .services {
+        padding: 40px 20px;
+    }
+}
