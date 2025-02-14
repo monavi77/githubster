@@ -180,3 +180,15 @@ header {
    line-height: normal;
    text-align: center;
 }
+
+/* Announcement H2 */
+.announcement h2 {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: normal;
+    color: #3B3B3B; /* Default text color */
+}
+
+.announcement h2 b {
+    color: #1EAFDE; /* Blue for Metrolics */
+}
