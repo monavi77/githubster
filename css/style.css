@@ -1,0 +1,119 @@
+.section__heading {
+    color: #494949;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    height: 32px;
+    display: flex;
+    flex-shrink: 0;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section__tagline {
+    color: #a3a3a3;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0%;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blog-img__container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .content__body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .image__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image__primary {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 256px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+  }
+  
+  .blog-gallery {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .gallery__container {
+    display: flex;
+    width: 1024px;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .image__secondary {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image__container {
+    width: calc((100% - 64px) / 3);
+    flex-shrink: 0;
+  }
+  
+  .icon__board {
+    display: flex;
+    height: 128px;
+    padding: 0px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .icon__container {
+    display: flex;
+    width: 179px;
+    height: 128px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #f3f3f3;
+  }
+  
+  .icon {
+    max-width: 100px;
+    height: auto;
+  }
+  
