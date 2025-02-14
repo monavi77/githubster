@@ -1,85 +1,109 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Metrolics Home Page</title>
-    <link rel="stylesheet" href="css/style.css">
-   </head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="Minions!" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="images/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+
   <body>
 
-    <header>
-      <h1>Metrolics</h1>
-      <nav class="topnavbar">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/">Portfolio</a>
-          </li>
-          <li>
-            <a href="/">Blog</a>
-          </li>
-          <li>
-            <a href="/">Quo Vadis?</a>
-          </li>
-          <li>
-            <a href="/">Let's Chat</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <div class="minionbuttons">
-        <button class="staircasebuttons">Metro Style</button>
-        <button class="staircasebuttons">Quick on the feet</button>
-        <button class="staircasebuttons">Metro Styling reinvented</button>
-      </div>
-      <h2>
+   <header>
+    <div class="header__logo">
+     <div class="header__brand-name"> <h1> Metrolics</h1> </div>
+     <img class="header__brand-logo" src="images/Metrolics_logo.svg" alt="Metrolics Logo"/>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item header__nav-item--home">
+          <a href="/" class="header__nav-link">Home  <span> ></span></a>
+        </li>
+        <li class="header__nav-item header__nav-item--portfolio">
+          <a href="/" class="header__nav-link">Portfolio  <span> ></span></a>
+        </li>
+        <li class="header__nav-item header__nav-item--blog">
+          <a href="/" class="header__nav-link">Blog  <span> ></span></a>
+        </li>
+        <li class="header__nav-item header__nav-item--quo-vadis">
+          <a href="/" class="header__nav-link">Quo Vadis?  <span> ></span></a>
+        </li>
+        <li class="header__nav-item header__nav-item--chat">
+          <a href="/" class="header__nav-link">Let's Chat  <span> ></span></a>
+        </li>
+      </ul>
+    </nav>
+  </header> 
+
+
+
+
+  <section class="hero">
+    <div class="container">
+        <div class="minionbuttons">
+            <div class="hero__tag metro">  Metro Style </div>
+            <div class="hero__tag quick"> Quick on the feet </div>
+            <div class="hero__tag styling"> Metro Styling reinvented </div>
+        </div>
+        <div class="main__screen-banner">
+          <img src="images/banner1.png" alt="Minions" class="minions"/>
+        </div>
+    </div>
+</section>
+  
+    
+      <div class="announcement"> 
+        <h2>
         Hey Folks! We are the <b>Metrolics</b> team. It sports a responsive
         layout with a mobile layout.theme.
       </h2>
-      <h3 class="sectionphrase">Things That We Do</h3>
-      <h4 class="subtitle">Ask us what we can do for you</h4>
-      <ul class="solutions">
-        <li>
-          <div class="solutioncontent">
-            <h5>Web Solutions</h5>
-            <p class="subtitle">
-              We are a fairly small, flexible design studio that designs for print
-              and web. We work flexibly with clients to fulfil their design needs.
-              We are confident you will be pleased with the results.
-            </p>
-          </li>
-          <li>
-            <h5>Web Solutions</h5>
-            <p class="subtitle">
-              We are a fairly small, flexible design studio that designs for print
-              and web. We work flexibly with clients to fulfil their design needs.
-              We are confident you will be pleased with the results.
-            </p>
-          </li>
-          <li>
-            <h5>Web Solutions</h5>
-            <p class="subtitle">
-              We are a fairly small, flexible design studio that designs for print
-              and web. We work flexibly with clients to fulfil their design needs.
-              We are confident you will be pleased with the results.
-            </p>
-          </li>
-          <li>
-            <h5>Web Solutions</h5>
-            <p class="subtitle">
-              We are a fairly small, flexible design studio that designs for print
-              and web. We work flexibly with clients to fulfil their design needs.
-              We are confident you will be pleased with the results.
-            </p>
-          </li>
-        </div>
-      </ul>
-    </section>
+    </div>
+
+    <section class="services container">
+      <h2>Things That We Do</h2>
+      <p>Ask us what we can do for you</p>
+      
+      <div class="services-grid">
+          <div class="service-item">
+              <div class="service-icon bulb"><img src="images/lightbulb.svg" alt="lightbulb"></div>
+              <h3>Web Solutions</h3>
+              <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfill their design needs. We are confident you will be pleased with the results.</p>
+          </div>
+          <div class="service-item">
+              <div class="service-icon camera"><img src="images/camera_alt.svg" alt="camera"></div>
+              <h3>Web Solutions</h3>
+              <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfill their design needs. We are confident you will be pleased with the results.</p>
+          </div>
+          <div class="service-item">
+              <div class="service-icon finger"><img src="images/touch_app.svg" alt="finger"></div>
+              <h3>Web Solutions</h3>
+              <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfill their design needs. We are confident you will be pleased with the results.</p>
+          </div>
+          <div class="service-item">
+              <div class="service-icon draw"><img src="images/draw.svg" alt="draw"></div>
+              <h3>Web Solutions</h3>
+              <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfill their design needs. We are confident you will be pleased with the results.</p>
+          </div>
+      </div>
+  </section>
 <section>
   <h3 class="sectionphrase">What's up lately</h3>
   <h4 class="subtitle">Read up on our latest work</h4>
