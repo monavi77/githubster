@@ -59,9 +59,126 @@
   /* 2.1 Core Layout*/
 
 /* 2.2 Small only */
-@media screen and (max-width: 39.9375em) {}
+@media screen and (max-width: 39.9375em) {
+    .footer_instagram_container{
+        display:none;
+    }
+    .footer_about_container{
+        display:none ;
+    }
+    .footer_profile_container {
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        gap: 32px;
+      }
+      
+      .profile_image {
+        display: block;
+        width: 96px;
+        height: 96px;
+        flex-shrink: 0;
+      }
+      
+      .footer_profile_text {
+        width: 256px;
+        flex-shrink: 0;
+      }
+      .footer_track_container{
+        display: flex;
+   
+      }
+      .footer_mastodon_container{
+
+        
+      }
+}
 /* 2.3 Medium and up */
-@media screen and (min-width: 40em) {}
+@media screen and (min-width: 40em) {
+    
+    /*.footer_profile_container{
+        display: flex;
+        padding:32px 32px  32px 32px;
+        align-items: center; 
+        gap:32px;
+    }
+    .profile_line {
+        width:118px;
+        height: 3px;
+        background: #FFB901;
+       margin-left:176px;
+    }
+   
+
+    .footer_about_container{
+        display: flex;
+        width:292px;
+        height: 256px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:10px;
+        flex-shrink:0;
+    }
+    .about_text_container{
+        height:246px;
+        flex-shrink:0;
+        align-self: stretch;
+    }
+    .footer_instagram_container{
+        display: flex;
+        width:292px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:10px;
+    }
+    .instagram_header{
+        height:14px;
+        align-self: stretch;
+    }
+    .instagram_image_divider{
+    }
+    .instagram_image_container{
+        display: flex;
+        align-items: inline-start;
+        align-content: flex-start;
+        gap:16px;
+        align-self: stretch;
+        flex-wrap: wrap;
+    }
+    .instagram_image{
+        width:61px;
+        height:64px;
+        border-radius: 2px;
+        border:1px solid #E1E1E1;
+    }
+    .footer_mastodon_container{
+        display:flex;
+        width:395px;
+        height: 335px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        flex-shrink:0;
+    }
+   
+        .mastodon_header{
+            align-self: stretch;
+        }
+        .mastodon_image_divider{
+            flex-shrink:0;
+        }
+        
+    .footer_masodon_text{
+        align-self: stretch;
+        text-align: justify;
+
+    }
+    .footer_track_container{
+        width: 176px;
+        flex-shrink: 0;
+    }
+    */
+}
 /* 2.4 Medium only */
 @media screen and (min-width: 40em) and
 (max-width: 63.9375em) {}
@@ -81,7 +198,10 @@
     margin-top: 28px;
     border: -22, -3.5, -30, -26;
 }
-
+.profile_text_container{
+    width: 546px;
+    height:72px;
+}
 .profile_line {
     display:flex;
     width: 118px;
@@ -89,22 +209,40 @@
     background: #FFB901;
     margin-left: 445px; 
 }
-.profile_text_container{
-    width: 546px;
-    height:72px;
+.footer_column_container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap:32px;
+margin-left: 208px;
+margin-right: 208px;
 }
-.about_header{
+
+}
+
+/*.about_header{
+    display: grid;
     margin-left: 208px;
+
 }
 .about_image_divider{
+    display: inline-block;
     margin-left: 208px;
 }
 .about_text_container{
+    display: inline-block;
     width: 232px;
     height: 252px;
     margin-left: 208px;
 }
+.instagram_header{
+    display: inline-block;
+    
 }
+.footer_about_container{
+    grid-column-start: 1;
+}*/
+
+
 
 /* 2.6 Large only */
 @media screen and (min-width: 64em) and
